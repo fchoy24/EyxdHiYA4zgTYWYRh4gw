@@ -31,7 +31,7 @@ export default class Login extends Component {
                 <Col md={{ size: 4, offset: 4 }}>
                   <div className="login-wrapper">
                     <FormGroup>
-                      <Label for="username">Username</Label>
+                      <Label for="username">Email</Label>
                       <Input value={this.state.username} onChange={this.userName.bind(this)} type="text" placeholder=""></Input>
                     </FormGroup>
                     <FormGroup>
